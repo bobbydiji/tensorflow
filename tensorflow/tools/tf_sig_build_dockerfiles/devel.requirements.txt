@@ -53,3 +53,4 @@ pylint ~= 2.13.9
 
 # For using Python 3.11 with Bazel 6 (b/286090018)
 lit ~= 17.0.2
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
